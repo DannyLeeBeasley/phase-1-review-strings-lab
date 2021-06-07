@@ -1,7 +1,7 @@
-const currentUser = "Steven Skinner"
+let currentUser = "Steven Skinner"
 
-const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`
+let welcomeMessage = `Welcome to Flatbook, ${currentUser}!`
 
-const excitedWelcomeMessage = welcomeMessage.toUpperCase()
+let excitedWelcomeMessage = welcomeMessage.toUpperCase()
 
-const shortGreeting = `Welcome, ${currentUser.slice(0,1)}!`
+let shortGreeting = `Welcome, ${currentUser.slice(0,1)}!`
